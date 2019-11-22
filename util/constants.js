@@ -1,0 +1,6 @@
+'use strict'
+let SOCKET_CONSTANTS={}
+SOCKET_CONSTANTS.ROOM_INIT = "room_init"
+SOCKET_CONSTANTS.SDP_EVENT ="sdp_event"
+SOCKET_CONSTANTS.ICE_CANDIDATE_EVENT = "ice_candidate_event"
+module.exports = SOCKET_CONSTANTS
