@@ -18,10 +18,21 @@
   "description": "",
   "dependencies": {
     "await-to-js": "^2.1.1",
+    "bcrypt-nodejs": "0.0.3",
+    "bcrypt-promise": "^2.0.0",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-query-boolean": "^2.0.0",
+    "fcm-node": "^1.5.2",
+    "firebase-admin": "^8.8.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^5.21.2",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
