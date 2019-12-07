@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node app.js",
+    "dev:start": "clear; nodemon --exec babel-node app.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "fcm-node": "^1.5.2",
     "firebase-admin": "^8.8.0",
     "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
     "morgan": "^1.9.1",
     "multer": "^1.4.2",
     "mysql2": "^2.0.1",
@@ -44,6 +46,11 @@
     "validator": "^12.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^2.0.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   }
