@@ -1,9 +1,8 @@
 node_modules/
 /node_modules
-/node_modules/
 # testing
 /coverage
-
+/.vscode
 # production
 /build
 package-lock.json

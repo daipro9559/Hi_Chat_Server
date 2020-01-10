@@ -1,8 +1,14 @@
 'use strict'
 
-module.exports = (express) => {
-    var router = express.Router()
-    var passport = require('passport')
+var { getAuthPath } = require('./apiPath');
+var userController = require('../controllers/userController');
+
+
+module.exports = (express, passport) => {
+    var router = express.Router();
     router.use(express.static('public'))
-    router.use(express.static('files'))
+        // authentication
+    router.post(getAuthPath('register'), userController.register);
+
+    return router;
 };
