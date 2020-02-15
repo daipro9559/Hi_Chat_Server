@@ -1,7 +1,7 @@
 'use strict'
 
 var { getAuthPath } = require('./apiPath');
-var userController = require('../controllers/userController');
+import userController from '../controllers/userController';
 
 
 module.exports = (express, passport) => {

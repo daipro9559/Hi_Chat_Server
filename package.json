@@ -50,11 +50,11 @@
         "validator": "^12.1.0"
     },
     "devDependencies": {
-        "@babel/core": "^7.7.4",
-        "@babel/node": "^7.7.4",
-        "@babel/preset-env": "^7.7.4",
+        "@babel/core": "^7.8.4",
+        "@babel/node": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
         "babel-loader": "^8.0.6",
-        "nodemon": "^2.0.1",
+        "nodemon": "^2.0.2",
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.9"
     }
